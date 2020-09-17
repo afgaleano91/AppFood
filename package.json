@@ -1,0 +1,26 @@
+{
+  "name": "AppFood",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "live-server public",
+    "build": "npx tailwindcss build css/tailwind.css -o public/css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/afgaleano91/AppFood.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/afgaleano91/AppFood/issues"
+  },
+  "homepage": "https://github.com/afgaleano91/AppFood#readme",
+  "dependencies": {
+    "autoprefixer": "^10.0.0",
+    "postcss-cli": "^7.1.2",
+    "tailwindcss": "^1.8.10"
+  }
+}
